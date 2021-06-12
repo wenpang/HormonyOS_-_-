@@ -1,0 +1,6 @@
+<div class="container">
+    <text class="title" show="{{isShow}}">
+        {{title}} {{ seconds }} 秒
+    </text>
+    <input type='button' class='btn' value='点击重新开始' onclick="clickAction"></input>
+</div>

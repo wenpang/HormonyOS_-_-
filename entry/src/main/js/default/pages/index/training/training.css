@@ -1,29 +1,8 @@
-.container1 {
+.container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: black;
-}
-
-.container2 {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-    color: white;
-}
-
-.pv1 {
-    color: white;
-    font-size: 15px;
-    width: 20px;
-    margin-left: 20px;
-}
-
-.pv2 {
-    color: white;
-    font-size: 15px;
-    width: 52px;
 }
 
 .title {
@@ -32,22 +11,9 @@
     opacity: 0.9;
 }
 
-.txt{
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    width: 22px;
-}
-
 .btn{
     background-color: black;
     margin-top: 20px;
-}
-
-.img{
-    border-radius: 50px;
-    width: 80px;
-    height: 80px;
 }
 
 @media screen and (device-type: tablet) and (orientation: landscape) {
@@ -59,11 +25,11 @@
 
 @media screen and (device-type: wearable) {
     .title {
-        font-size: 28px;
+        font-size: 15px;
         color: #FFFFFF;
     }
     .btn{
-        width: 90px;
+        width: 150px;
         height: 30px;
     }
 }

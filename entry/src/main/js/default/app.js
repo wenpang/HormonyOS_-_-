@@ -1,8 +1,8 @@
 export default {
     onCreate() {
-        console.info('AceApplication onCreate');
+        console.info('应用正在创建');
     },
     onDestroy() {
-        console.info('AceApplication onDestroy');
+        console.info('应用正在销毁');
     }
 };
