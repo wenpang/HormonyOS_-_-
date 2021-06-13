@@ -1,7 +1,7 @@
 import router from '@system.router';
 
 var picker1value = 2;
-var picker2value = 0;
+var picker2value = '舒缓';
 
 
 export default {
@@ -11,7 +11,7 @@ export default {
     },
     clickAction() {
         router.replace({
-            uri: 'pages/index/training/training',
+            uri: 'pages/index/countdown/countdown',
             params: {
                 data1: picker1value,
                 data2: picker2value

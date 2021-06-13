@@ -48,7 +48,8 @@
       {
         "pages": [
           "pages/index/index",
-          "pages/index/training/training"
+          "pages/index/training/training",
+          "pages/index/countdown/countdown"
         ],
         "name": "default",
         "window": {

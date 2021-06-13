@@ -6,14 +6,44 @@
 }
 
 .title {
-    font-size: 40px;
     color: white;
     opacity: 0.9;
 }
 
+.txt1{
+    font-size: 25px;
+    margin: 8px 0;
+    color: white;
+}
+
+.txt2{
+    font-size: 15px;
+    color: white;
+}
+
 .btn{
     background-color: black;
-    margin-top: 20px;
+    margin-top: 5px;
+}
+
+.process{
+    margin: 10px 0;
+}
+
+.img{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    animation-name: animations;
+}
+
+@keyframes animations{
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 
 @media screen and (device-type: tablet) and (orientation: landscape) {

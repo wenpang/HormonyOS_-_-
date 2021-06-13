@@ -1,0 +1,12 @@
+<div class="container">
+    <image src="{{imagers}}" class='img' show="{{showImg}}"></image>
+    <text class="txt1">
+        请保持静止
+    </text>
+    <text class="txt2">
+        {{second}} 秒后跟随训练指引
+    </text>
+    <text class="txt3">
+        进行吸气和呼气
+    </text>
+</div>

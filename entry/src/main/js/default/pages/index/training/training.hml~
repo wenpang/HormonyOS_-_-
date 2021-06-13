@@ -1,5 +1,5 @@
 <div class="container">
-    <image class='img' src='/common/images/training.jpg' style="animation-duration: {{duration}};animation-iteration-count: {{count}};"></image>
+    <image src='/common/images/training.jpg' style="animation-duration: {{duration}};animation-iteration-count: {{count}};"></image>
     <text class='txt1' show="{{isShow}}">{{breath}}({{percent}}%)</text>
     <text class='txt1' show="{{isShow2}}">已完成({{percent}}%)</text>
     <text class="txt2" show="{{isShow}}">
